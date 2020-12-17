@@ -70,12 +70,6 @@ def pathc():
             FinalArrow=Label(window,text='->',font='Courier 10',bg='white').place(x=x_value1,y=405)
             x_value1=x_value1+18           
         f="Estimated time to reach Hospital: {} minutes"
-        Time=Label(window,text=f.format(t),font='Times 11 bold',bg='white').place(x=10,y=425)
-        Thanks=Label(window,text="Thank You for using our Ambulance Navigation System",font='Helvetica 12',bg='white').place(x=1050,y=475)
-        Nitiksha=Label(window,text="By:-Nitiksha Katoch",font='Helvetica 12',bg='white').place(x=1292,y=495)
-        Nobin=Label(window,text="Nobin Johnson",font='Helvetica 12',bg='white').place(x=1320,y=515)
-        Paraag=Label(window,text="Paraag Mishra",font='Helvetica 12',bg='white').place(x=1320,y=535)
-        Prajwal=Label(window,text="Prajwal S.",font='Helvetica 12',bg='white').place(x=1320,y=555)
 def pathn():
         route_temp=start_areas
         for a in Neurology:
@@ -96,12 +90,6 @@ def pathn():
             FinalArrow=Label(window,text='->',font='Courier 10',bg='white').place(x=x_value1,y=405)
             x_value1=x_value1+18           
         f="Estimated time to reach Hospital: {} minutes"
-        Time=Label(window,text=f.format(t),font='Times 11 bold',bg='white').place(x=10,y=425)
-        Thanks=Label(window,text="Thank You for using our Ambulance Navigation System",font='Helvetica 12',bg='white').place(x=1050,y=475)
-        Nitiksha=Label(window,text="By:-Nitiksha Katoch",font='Helvetica 12',bg='white').place(x=1292,y=495)
-        Nobin=Label(window,text="Nobin Johnson",font='Helvetica 12',bg='white').place(x=1320,y=515)
-        Paraag=Label(window,text="Paraag Mishra",font='Helvetica 12',bg='white').place(x=1320,y=535)
-        Prajwal=Label(window,text="Prajwal S.",font='Helvetica 12',bg='white').place(x=1320,y=555)
 def pathm():
         route_temp=start_areas
         for a in Maternity:
@@ -124,10 +112,6 @@ def pathm():
         f="Estimated time to reach Hospital: {} minutes"
         Time=Label(window,text=f.format(t),font='Times 11 bold',bg='white').place(x=10,y=425)
         Thanks=Label(window,text="Thank You for using our Ambulance Navigation System",font='Helvetica 12',bg='white').place(x=1050,y=475)
-        Nitiksha=Label(window,text="By:-Nitiksha Katoch",font='Helvetica 12',bg='white').place(x=1292,y=495)
-        Nobin=Label(window,text="Nobin Johnson",font='Helvetica 12',bg='white').place(x=1320,y=515)
-        Paraag=Label(window,text="Paraag Mishra",font='Helvetica 12',bg='white').place(x=1320,y=535)
-        Prajwal=Label(window,text="Prajwal S.",font='Helvetica 12',bg='white').place(x=1320,y=555)
 def pathp():
         route_temp=start_areas
         for a in Pediatric:
@@ -150,10 +134,6 @@ def pathp():
         f="Estimated time to reach Hospital: {} minutes"
         Time=Label(window,text=f.format(t),font='Times 11 bold',bg='white').place(x=10,y=425)
         Thanks=Label(window,text="Thank You for using our Ambulance Navigation System",font='Helvetica 12',bg='white').place(x=1050,y=475)
-        Nitiksha=Label(window,text="By:-Nitiksha Katoch",font='Helvetica 12',bg='white').place(x=1292,y=495)
-        Nobin=Label(window,text="Nobin Johnson",font='Helvetica 12',bg='white').place(x=1320,y=515)
-        Paraag=Label(window,text="Paraag Mishra",font='Helvetica 12',bg='white').place(x=1320,y=535)
-        Prajwal=Label(window,text="Prajwal S.",font='Helvetica 12',bg='white').place(x=1320,y=555)
 def pathg():
         route_temp=start_areas
         for a in General:
@@ -176,10 +156,6 @@ def pathg():
         f="Estimated time to reach Hospital: {} minutes"
         Time=Label(window,text=f.format(t),font='Times 11 bold',bg='white').place(x=10,y=470)
         Thanks=Label(window,text="Thank You for using our Ambulance Navigation System",font='Helvetica 12',bg='white').place(x=1050,y=505)
-        Nitiksha=Label(window,text="By:-Nitiksha Katoch",font='Helvetica 12',bg='white').place(x=1292,y=530)
-        Nobin=Label(window,text="Nobin Johnson",font='Helvetica 12',bg='white').place(x=1320,y=550)
-        Paraag=Label(window,text="Paraag Mishra",font='Helvetica 12',bg='white').place(x=1320,y=570)
-        Prajwal=Label(window,text="Prajwal S.",font='Helvetica 12',bg='white').place(x=1320,y=592)
 def pathmu():
         route_temp=start_areas
         for a in Multispeciality:
@@ -202,10 +178,6 @@ def pathmu():
         f="Estimated time to reach Hospital: {} minutes"
         Time=Label(window,text=f.format(t),font='Times 11 bold',bg='white').place(x=10,y=470)
         Thanks=Label(window,text="Thank You for using our Ambulance Navigation System",font='Helvetica 12',bg='white').place(x=1050,y=505)
-        Nitiksha=Label(window,text="By:-Nitiksha Katoch",font='Helvetica 12',bg='white').place(x=1292,y=530)
-        Nobin=Label(window,text="Nobin Johnson",font='Helvetica 12',bg='white').place(x=1320,y=550)
-        Paraag=Label(window,text="Paraag Mishra",font='Helvetica 12',bg='white').place(x=1320,y=570)
-        Prajwal=Label(window,text="Prajwal S.",font='Helvetica 12',bg='white').place(x=1320,y=592)
 def money():
         Money=Label(window,text="Is Money an Issue?",font='Times 14',bg='red',fg='white').place(x=675,y=355)
         Yes=Button(window,text='Yes',bg='red',fg='black',command=pathg).place(x=677,y=378)
